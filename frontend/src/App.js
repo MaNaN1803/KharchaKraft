@@ -79,7 +79,7 @@ function App() {
         <LoginStyled>
           <LoginForm>
             <h2>Login to Your App</h2>
-            <GoogleOAuthProvider clientId="102168253307-t1fog228n30ml7ifaprks31ji9nrncrj.apps.googleusercontent.com">
+            <GoogleOAuthProvider clientId="client id env file">
               <GoogleLogin
                 onSuccess={(credentialResponse) => {
                   console.log(credentialResponse);
